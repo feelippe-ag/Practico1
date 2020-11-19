@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: justify;
+    padding-top: 1em;
+}
+
+body{
+    background: #e6e6e6;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+header, .main, footer{
+    width: 95%;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+header{
+    background: #333333;
+    margin-top: 0;
+}
+
+header .logo{
+    float: left;
+    width: 10%;
+    max-height: 200px;
+    margin: 0 3%;
+}
+
+header .cabeza{
+    float: left;
+    width: 80%;
+    height: 1000%;
+    color: white;
+    margin-left: 2%;
+}
+
+.cabeza h1{
+    margin: 1%;
+    padding: 1%;
+    font-size: 4rem;
+}
+
+.logo img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    clear: both;
+    overflow: hidden;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+}    
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover{
+    background: #4a4a4a;
+}
+
+/* seccion main */
+
+.main .article{
+    width: 68%;
+    float: left;
+    margin-right: 1%;
+
+}
+
+.main .article article{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.main img{
+    float: left;
+    margin-right: 3%;
+} 
+
+aside{
+    width: 31%;
+    padding: 2%;
+    float: left;
+    background: yellow;
+    margin-bottom: 1%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.tabla{
+    padding: 0.5%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    background: crimson;
+    border: black 1px solid;
+    border-radius: 5px;
+    border-collapse: collapse;
+    
+}
+
+table td, th{
+     border: black 1px solid;
+     width: 5%;
+     padding: 5% 0.1%;
+     color: white;
+     font-size: small;
+    
+ }
+
+footer{
+    background: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+}
